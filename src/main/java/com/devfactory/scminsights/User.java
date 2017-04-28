@@ -2,17 +2,10 @@ package com.devfactory.scminsights;
 
 public class User {
 
-    private String firstName;
+    private String fName;
     private String lastName;
     private Integer age;
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
+    private String address;    
 
     public String getLastName() {
         return lastName;
@@ -28,6 +21,22 @@ public class User {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    public String getfName() {
+        return fName;
+    }
+
+    public void setfName(String fName) {
+        this.fName = fName;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 
 
